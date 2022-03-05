@@ -1,0 +1,22 @@
+{
+  "name": "spacex-bootstrap",
+  "version": "1.0.0",
+  "description": "projeto final spacex feito com bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoMaiaa/Spacex-bootstrap.git"
+  },
+  "author": "Joao Maia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoMaiaa/Spacex-bootstrap/issues"
+  },
+  "homepage": "https://github.com/JoaoMaiaa/Spacex-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
