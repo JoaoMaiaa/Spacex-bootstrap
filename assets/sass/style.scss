@@ -1,0 +1,71 @@
+/* cor do hover do botão 
+
+    #b9b9b9
+
+*/
+
+/* cor do item da tabela
+
+    #d8d8d8
+
+*/
+
+*{
+    font-family:Arial;
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100%;
+}
+
+.home-section-1{
+    background-image:url('../images/home/01.jpg');
+}
+
+.home-section-2{
+    background-image:url('../images/home/03.jpg');
+}
+
+.home-section-3{
+    background-image:url('../images/home/02.gif');
+}
+
+.home-section-4{
+    background-image:url('../images/home/04.jpg');
+}
+
+.falcon-section-1{
+    background-image:url('../images/falcon-9/01.jpg');
+}
+
+.falcon-section-2{
+    background-image:url('../images/falcon-9/02.jpg');
+}
+
+.falcon-section-3{
+    background-image:url('../images/falcon-9/03.jpg');
+}
+
+.falcon-section-4{
+    // background-image:url('../imagesfalcon-9/04.jpg');
+}
+
+.home-section-1, .home-section-2, .home-section-3, .home-section-4,
+.falcon-section-1, .falcon-section-2, .falcon-section-3, .falcon-section-4{
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+}
+
+footer{
+    font-size:12px;
+    background-color:#000;
+    span{
+        color:#555252;
+    }
+    a:hover{
+        color:#b9b9b9!important;
+    }
+}
