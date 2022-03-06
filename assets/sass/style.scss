@@ -21,6 +21,18 @@ body{
     background-color:#000;
 }
 
+.navbar{
+    background-color:transparent!important;
+    .navbar-brand img {
+        max-width:250px!important;
+    }
+    ul a{
+        font-size:12px;
+    }
+}
+
+// home
+
 .home-section-1{
     background-image:url('../images/home/01.jpg');
 }
@@ -37,6 +49,8 @@ body{
     background-image:url('../images/home/04.jpg');
 }
 
+// falcon
+
 .falcon-section-1{
     background-image:url('../images/falcon-9/01.jpg');
 }
@@ -45,16 +59,35 @@ body{
     background-image:url('../images/falcon-9/02.jpg');
 }
 
-.falcon-section-3{
-    // background-image:url('../images/falcon-9/03.jpg');
-}
-
 .falcon-section-4{
     background-image:url('../images/falcon-9/08.jpg');
 }
 
+// human
+
+.human-section-1{
+    background-image:url('../images/human-flight/01.jpg');
+}
+
+.human-section-2{
+    background-image:url('../images/human-flight/02.jpg');
+}
+
+.human-section-3{
+    background-image:url('../images/human-flight/03.jpg');
+}
+
+.human-section-4{
+    background-image:url('../images/human-flight/04.jpg');
+}
+
+.human-section-5{
+    background-image:url('../images/human-flight/05.jpg');
+}
+
 .home-section-1, .home-section-2, .home-section-3, .home-section-4,
-.falcon-section-1, .falcon-section-2, .falcon-section-3, .falcon-section-4{
+.falcon-section-1, .falcon-section-2, .falcon-section-3, .falcon-section-4,
+.human-section-1, .human-section-2, .human-section-3, .human-section-4, .human-section-5{
     height:100vh;
     background-size:cover;
     background-position: center;
@@ -68,6 +101,11 @@ body{
 
 .contact-falcon{
     height:100vh;
+    max-height:100vh;
+    .container{
+        min-height:100vh!important;
+    }
+    
 }
 
 footer{
