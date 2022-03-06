@@ -17,6 +17,7 @@
 
 body {
   height: 100%;
+  background-color: #000;
 }
 
 .home-section-1 {
@@ -43,8 +44,8 @@ body {
   background-image: url("../images/falcon-9/02.jpg");
 }
 
-.falcon-section-3 {
-  background-image: url("../images/falcon-9/03.jpg");
+.falcon-section-4 {
+  background-image: url("../images/falcon-9/08.jpg");
 }
 
 .home-section-1, .home-section-2, .home-section-3, .home-section-4,
@@ -54,8 +55,18 @@ body {
   background-position: center;
 }
 
+.falcon-section-5 img {
+  max-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-falcon {
+  height: 100vh;
+}
+
 footer {
-  font-size: 12px;
+  font-size: 13px;
   background-color: #000;
 }
 footer span {
