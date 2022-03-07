@@ -103,15 +103,35 @@ body {
 .btn {
   border: 2px solid !important;
   font-size: 18px !important;
+  transition: 0.1s !important;
+}
+.btn:hover {
+  border-color: #fff !important;
+  transition: 0.1s !important;
 }
 
 .home-section-1 .row, .home-section-2 .row, .home-section-3 .row, .home-section-4 .row,
-.human-section-1 .row, .human-section-2 .row, .human-section-3 .row, .human-section-4 .row, .human-section-5 .row {
+.human-section-1 .row, .human-section-2 .row, .human-section-3 .row, .human-section-4 .row, .human-section-5 .row,
+.falcon-section-1 .row, .falcon-section-2 .row, .falcon-section-4 .row {
   min-height: 100vh !important;
 }
 
-.human-section-1 h1 {
+.human-section-1 .content,
+.falcon-section-1 .content {
+  margin-bottom: 270px !important;
+}
+.human-section-1 h1,
+.falcon-section-1 h1 {
   font-size: 8em !important;
+}
+
+.falcon-section-2 p {
+  font-size: 23px;
+  line-height: 50px;
+}
+
+.falcon-section-4 p {
+  font-size: 18px;
 }
 
 @media (max-width: 1028px) {
@@ -120,14 +140,22 @@ body {
   }
 }
 @media (max-width: 688px) {
-  .human-section-1 {
-    margin-bottom: 300px !important;
-  }
-  .human-section-1 h4 {
+  .human-section-1 h4,
+.falcon-section-1 h4 {
     font-size: 16px !important;
   }
-  .human-section-1 h1 {
+  .human-section-1 h1,
+.falcon-section-1 h1 {
     font-size: 3em !important;
+  }
+
+  .falcon-section-2 p {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .section-whatever p, .section-whatever a {
+    font-size: 15px;
   }
 }
 .text-desc {
