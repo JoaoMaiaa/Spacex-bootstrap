@@ -134,6 +134,19 @@ body {
   font-size: 18px;
 }
 
+.falcon-section-3 .content {
+  margin: 180px 0px 0px 80px;
+}
+.falcon-section-3 .table {
+  width: 500px;
+}
+.falcon-section-3 p {
+  width: 500px;
+}
+.falcon-section-3 .second {
+  margin: 150px 0px 0px 80px !important;
+}
+
 @media (max-width: 1028px) {
   .human-section-1 h1 {
     font-size: 5em !important;
