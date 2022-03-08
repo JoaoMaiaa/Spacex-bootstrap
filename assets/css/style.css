@@ -167,6 +167,42 @@ body {
     line-height: 40px;
   }
 
+  .falcon-section-3 {
+    height: 50vh;
+  }
+  .falcon-section-3 .carousel-inner {
+    height: 60vh;
+  }
+  .falcon-section-3 .content {
+    margin: 0px 0px 0px 80px;
+  }
+  .falcon-section-3 .table {
+    width: 300px;
+  }
+  .falcon-section-3 p {
+    width: 250px;
+    font-size: 12px;
+  }
+  .falcon-section-3 .second {
+    margin: 0px 0px 0px 80px !important;
+  }
+  .falcon-section-3 td {
+    font-size: 12px;
+  }
+  .falcon-section-3 h2 {
+    font-size: 15px;
+  }
+  .falcon-section-3 h6 {
+    font-size: 10px;
+  }
+
+  .falcon-section-4 p {
+    font-size: 15px;
+  }
+  .falcon-section-4 .table td {
+    font-size: 15px;
+  }
+
   .section-whatever p, .section-whatever a {
     font-size: 15px;
   }

@@ -176,7 +176,7 @@ body{
 @media (max-width:688px){
     .human-section-1,
     .falcon-section-1{
-        // margin-bottom:300px!important;
+        // margin-top:300px!important;
         h4{
             font-size:16px!important;
         }
@@ -190,6 +190,48 @@ body{
         p{
             font-size:18px;
             line-height:40px;
+        }
+    }
+
+    .falcon-section-3{
+        height:50vh;
+        .carousel-inner{
+            height:60vh;
+        }
+        .content{
+            margin:0px 0px 0px 80px;
+        }
+        .table{
+            width:300px;
+        }
+        p{
+            width:250px;
+            font-size:12px;
+        }
+
+        .second{
+            margin:0px 0px 0px 80px!important;
+        }
+        td{
+            font-size:12px;
+        }
+
+        h2{
+            font-size:15px;
+        }
+        h6{
+            font-size:10px;
+        }
+    }
+
+    .falcon-section-4{
+        p{
+            font-size:15px;
+        }
+        .table{        
+            td{
+                font-size:15px;
+            }
         }
     }
 
