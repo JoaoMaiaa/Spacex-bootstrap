@@ -1,0 +1,67 @@
+.human-section-1{
+    background-image:url('../images/human-flight/01.jpg');
+}
+
+.human-section-2{
+    background-image:url('../images/human-flight/02.jpg');
+}
+
+.human-section-3{
+    background-image:url('../images/human-flight/03.jpg');
+}
+
+.human-section-4{
+    background-image:url('../images/human-flight/04.jpg');
+}
+
+.human-section-5{
+    background-image:url('../images/human-flight/05.jpg');
+}
+
+.human-section-1, .human-section-2, .human-section-3, .human-section-4, .human-section-5{
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+}
+
+.human-section-1 .row, .human-section-2 .row, .human-section-3 .row, .human-section-4 .row, .human-section-5 .row{
+    min-height:100vh!important;
+}
+
+.human-section-1{
+    .content{
+        margin-bottom:270px!important;
+    }
+
+    h1{
+        font-size:8em!important;
+    }
+}
+
+@media (max-width:1028px){
+    .human-section-1{
+        h1{
+            font-size:5em!important;
+            // font-size:120px!important;
+        }
+    }
+}
+
+@media (max-width:688px){
+    .human-section-1{
+        // margin-top:300px!important;
+        h4{
+            font-size:16px!important;
+        }
+        h1{
+            font-size:3em!important;
+            // font-size:120px!important;
+        }
+    }
+
+    .section-whatever{
+        p, a{
+            font-size:15px;
+        }
+    }
+}

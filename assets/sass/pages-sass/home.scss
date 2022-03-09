@@ -1,0 +1,48 @@
+.home-section-1{
+    overflow-x:hidden;
+    background-image:url('../images/home/01.jpg');
+}
+
+.home-section-2{
+    background-image:url('../images/home/03.jpg');
+}
+
+.home-section-3{
+    background-image:url('../images/home/02.gif');
+}
+
+.home-section-4{
+    background-image:url('../images/home/04.jpg');
+}
+
+.home-section-1, .home-section-2, .home-section-3, .home-section-4{
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+}
+
+.home-section-1 .row, .home-section-2 .row, .home-section-3 .row, .home-section-4 .row{
+    min-height:100vh!important;
+}
+
+.arrow{
+    width:100px;
+}
+
+@media (max-width:550px){
+    .home-section-1 p{
+        font-size:17px;
+    }
+    .home-section-1 .row{
+        min-height:80vh!important;
+    }
+}
+
+@media (max-width:990px){
+    .home-section-1 p{
+        font-size:17px;
+    }
+    .home-section-1 .row{
+        min-height:80vh!important;
+    }
+}

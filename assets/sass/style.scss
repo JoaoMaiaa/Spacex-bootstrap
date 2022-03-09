@@ -1,14 +1,6 @@
-/* cor do hover do botão 
-
-    #b9b9b9
-
-*/
-
-/* cor do item da tabela
-
-    #d8d8d8
-
-*/
+@import 'pages-sass/home.scss';
+@import 'pages-sass/falcon-9.scss';
+@import 'pages-sass/human-flight.scss';
 
 *{
     font-family:Arial;
@@ -31,82 +23,6 @@ body{
     }
 }
 
-// home
-
-.home-section-1{
-    background-image:url('../images/home/01.jpg');
-}
-
-.home-section-2{
-    background-image:url('../images/home/03.jpg');
-}
-
-.home-section-3{
-    background-image:url('../images/home/02.gif');
-}
-
-.home-section-4{
-    background-image:url('../images/home/04.jpg');
-}
-
-// falcon
-
-.falcon-section-1{
-    background-image:url('../images/falcon-9/01.jpg');
-}
-
-.falcon-section-2{
-    background-image:url('../images/falcon-9/02.jpg');
-}
-
-.falcon-section-4{
-    background-image:url('../images/falcon-9/08.jpg');
-}
-
-// human
-
-.human-section-1{
-    background-image:url('../images/human-flight/01.jpg');
-}
-
-.human-section-2{
-    background-image:url('../images/human-flight/02.jpg');
-}
-
-.human-section-3{
-    background-image:url('../images/human-flight/03.jpg');
-}
-
-.human-section-4{
-    background-image:url('../images/human-flight/04.jpg');
-}
-
-.human-section-5{
-    background-image:url('../images/human-flight/05.jpg');
-}
-
-.home-section-1, .home-section-2, .home-section-3, .home-section-4,
-.falcon-section-1, .falcon-section-2, .falcon-section-3, .falcon-section-4,
-.human-section-1, .human-section-2, .human-section-3, .human-section-4, .human-section-5{
-    height:100vh;
-    background-size:cover;
-    background-position: center;
-}
-
-.falcon-section-5 img{
-    max-height:100vh;
-    background-size:cover;
-    background-position: center;
-}
-
-.contact-falcon{
-    height:100vh;
-    max-height:100vh;
-    .container{
-        min-height:100vh!important;
-    }
-}
-
 .btn{
     border:2px solid!important;
     font-size:18px!important;
@@ -118,156 +34,15 @@ body{
     }
 }
 
-.home-section-1 .row, .home-section-2 .row, .home-section-3 .row, .home-section-4 .row,
-.human-section-1 .row, .human-section-2 .row, .human-section-3 .row, .human-section-4 .row, .human-section-5 .row,
-.falcon-section-1 .row, .falcon-section-2 .row, .falcon-section-4 .row{
-    min-height:100vh!important;
-}
-
-.human-section-1,
-.falcon-section-1{
-    .content{
-        margin-bottom:270px!important;
-    }
-
-    h1{
-        font-size:8em!important;
-    }
-}
-
-.falcon-section-2{
-    p{
-        font-size:23px;
-        line-height:50px;
-    }
-}
-
-.falcon-section-4{
-    p{
-        font-size:18px;
-    }
-}
-
-.falcon-section-3{  
-    .content{
-        margin:180px 0px 0px 80px;
-    }
-    .table{
-        width:500px;
-    }
-    p{
-        width:500px;
-    }
-
-    .second{
-        margin:150px 0px 0px 80px!important;
-    }
-}
-
-@media (max-width:1028px){
-    .human-section-1{
-        h1{
-            font-size:5em!important;
-            // font-size:120px!important;
-        }
-    }
-}
-
-@media (max-width:688px){
-    .human-section-1,
-    .falcon-section-1{
-        // margin-top:300px!important;
-        h4{
-            font-size:16px!important;
-        }
-        h1{
-            font-size:3em!important;
-            // font-size:120px!important;
-        }
-    }
-
-    .falcon-section-2{
-        p{
-            font-size:18px;
-            line-height:40px;
-        }
-    }
-
-    .falcon-section-3{
-        height:50vh;
-        .carousel-inner{
-            height:60vh;
-        }
-        .content{
-            margin:0px 0px 0px 80px;
-        }
-        .table{
-            width:300px;
-        }
-        p{
-            width:250px;
-            font-size:12px;
-        }
-
-        .second{
-            margin:0px 0px 0px 80px!important;
-        }
-        td{
-            font-size:12px;
-        }
-
-        h2{
-            font-size:15px;
-        }
-        h6{
-            font-size:10px;
-        }
-    }
-
-    .falcon-section-4{
-        p{
-            font-size:15px;
-        }
-        .table{        
-            td{
-                font-size:15px;
-            }
-        }
-    }
-
-    .section-whatever{
-        p, a{
-            font-size:15px;
-        }
-    }
-}
-
 .text-desc{
     color:#d8d8d8;
     font-size:20px;
-    & a:hover{
+    a{
         color:#928e8e;
+        text-decoration:none;
     }
-}
-
-.last-carousel{
-    bottom:10%;
-    // left:10%;
-    width:1100px;
-    max-width:95%;
-    background-color:#000!important;
-}
-
-@media (max-width:990px){
-    .last-carousel{
-        max-width:80%;
-        background-color:#fff;
-    }
-}
-
-@media (max-width:550px){
-    .last-carousel{
-        max-width:95%;
+    & a:hover{
+        color:#7a7575;
     }
 }
 
