@@ -38,6 +38,17 @@
     }
 }
 
+.contact-human{
+    // height:100vh;
+    .row{
+        height:100vh;
+    }
+    max-height:100vh;
+    .container{
+        min-height:100vh!important;
+    }
+}
+
 @media (max-width:1028px){
     .human-section-1{
         h1{

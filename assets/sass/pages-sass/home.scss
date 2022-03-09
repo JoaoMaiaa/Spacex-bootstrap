@@ -21,8 +21,12 @@
     background-position: center;
 }
 
-.home-section-1 .row, .home-section-2 .row, .home-section-3 .row, .home-section-4 .row{
+.home-section-2 .row, .home-section-3 .row, .home-section-4 .row{
     min-height:100vh!important;
+}
+
+.home-section-1 .row{
+    min-height:80vh!important;
 }
 
 .arrow{
@@ -33,9 +37,9 @@
     .home-section-1 p{
         font-size:17px;
     }
-    .home-section-1 .row{
-        min-height:80vh!important;
-    }
+    // .home-section-1 .row{
+    //     min-height:80vh!important;
+    // }
 }
 
 @media (max-width:990px){
